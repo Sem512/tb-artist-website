@@ -1,0 +1,48 @@
+main{
+    width: 55% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+main hr{
+    margin:8px;
+}
+
+main hr:nth-of-type(2),main hr:nth-of-type(3){
+    border-top: 3px solid white;
+    width: 100%;    
+}
+
+main hr:nth-of-type(1),main hr:nth-of-type(4){
+    border-top: 1px solid white;
+    width: 100%;
+}
+
+.para{
+    padding:20px 0px;
+}
+
+.para p:nth-child(2){
+    font-family: "Noto Serif Ethiopic", serif;
+    font-size: 90px;
+    line-height: 1.1em;
+    margin-top:10px;
+    margin-bottom: 0px;
+    font-weight: 800;
+}
+
+.para p:nth-child(odd){
+    font-family: "Wix Madefor Text", serif;
+    font-size: 18px;
+    line-height: 1.1em;
+    text-align: center;
+
+}
+
+.para p{
+    margin:0px
+}
+

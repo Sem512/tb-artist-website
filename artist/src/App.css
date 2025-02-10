@@ -1,0 +1,21 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('./img/bg 2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 110vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+@media(max-width:480px){
+  .container{
+  max-height: 100%;
+}
+
+}

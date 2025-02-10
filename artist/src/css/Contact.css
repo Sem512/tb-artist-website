@@ -1,0 +1,82 @@
+/* Contact Page Container */
+.contact-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:70%;
+  }
+  
+  /* Contact Form Styling */
+  .contact-form {
+    max-width: 500px;
+    width:70%;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  .contact-form p {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Form Group Styling */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 0.9rem;
+    color: white;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dddddd5c;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  /* Submit Button Styling */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
