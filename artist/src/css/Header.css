@@ -72,13 +72,14 @@ header li:nth-of-type(1)::before{
         position: absolute;
         top: 80px; /* Adjust based on your header height */
         left: 0;
-        width: 100%;
+        min-width: 90%;
         background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
         z-index: 1000;
     }
 
     header ul.open {
         display: flex; /* Show the menu when open */
+        overflow-x: hidden;
     }
 
     header li {
