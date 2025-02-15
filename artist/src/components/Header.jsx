@@ -13,7 +13,7 @@ const Header = () => {
     return (
         <header id='header'>
             <div className='logo' onClick={() => navigate("/")}>
-                <p>TB</p>
+                <img src="https://tewoldebrehan.art/wp-content/uploads/2017/11/retina_artist2.png" alt="" />
             </div>
 
             {/* Hamburger Icon */}
@@ -31,7 +31,7 @@ const Header = () => {
                         className={({ isActive }) => (isActive ? "active-link" : "")}
                         onClick={toggleMenu} // Close menu on link click
                     >
-                        HOME
+                        Home
                     </NavLink>
                 </li>
                 <li>
@@ -40,7 +40,7 @@ const Header = () => {
                         className={({ isActive }) => (isActive ? "active-link" : "")}
                         onClick={toggleMenu}
                     >
-                        BIO
+                        Meet Tewolde
                     </NavLink>
                 </li>
                 <li>
@@ -49,16 +49,7 @@ const Header = () => {
                         className={({ isActive }) => (isActive ? "active-link" : "")}
                         onClick={toggleMenu}
                     >
-                        WORKS
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink
-                        to="/shows"
-                        className={({ isActive }) => (isActive ? "active-link" : "")}
-                        onClick={toggleMenu}
-                    >
-                        SHOWS
+                        My Works
                     </NavLink>
                 </li>
                 <li>
@@ -67,7 +58,7 @@ const Header = () => {
                         className={({ isActive }) => (isActive ? "active-link" : "")}
                         onClick={toggleMenu}
                     >
-                        CONTACT
+                        Contact
                     </NavLink>
                 </li>
             </ul>

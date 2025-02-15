@@ -1,0 +1,55 @@
+/* Mobile-First Base Styles */
+.Works {
+    padding: 20px; /* Less padding for mobile */
+    display: flex;
+    flex-direction: column;
+}
+
+.Works h1 {
+    text-align: right;
+    font-size: 24px; /* Smaller font size for mobile */
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column for mobile */
+    gap: 15px; /* Space between grid items */
+}
+
+.grid img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.grid div{
+    transition: transform 0.3s ease-in-out;
+}
+
+.grid div:hover{
+    transform: scale(1.05);
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) {
+    .Works {
+        padding: 50px; /* More padding for tablets and desktops */
+    }
+
+    .Works h1 {
+        font-size: 31px; /* Larger font size for tablets and desktops */
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr); /* 4 columns for desktops */
+    }
+}

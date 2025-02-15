@@ -1,0 +1,44 @@
+.about{
+    background-image: url('https://tewoldebrehan.art/wp-content/uploads/2022/11/home-artist2-bg2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding:80px 50px;
+    margin: 0px;
+}
+
+.title{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    color: white;
+    font-size: 18px;
+}
+
+.title img{
+    max-width: 33px;
+    max-height: 33px;
+}
+
+.bio{
+    padding: 30px;
+    padding-bottom: 5px;
+}
+
+.bio p{
+    height: fit-content;
+    border-left: 2px solid white;
+    font-size: 26px;
+    padding-left: 40px;
+}
+
+.about button{
+    width:60%;
+    background-color:#333333;
+    padding: 12px;
+    border: none;
+    color: rgba(255, 255, 255, 0.766);
+    font-size: 16px;
+}
