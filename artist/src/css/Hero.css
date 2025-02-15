@@ -44,11 +44,12 @@
     font-size: 16px;
     width: 50%;
     font-weight: 700;
-    color: #3d3d3ddf;
-    background-color: #f7f7f7;
+    color: #3d3d3df0;
+    background-color: #f7f7f7cf;
     border-radius: 15px;
     border: none;
     padding:5px;
+    cursor: pointer;
 }
 
 .right{
@@ -59,4 +60,80 @@ width:50%;
 .right img{
     max-width: 229px;
     max-height: 229px;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        flex-direction: row; /* Side-by-side layout for tablets */
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 20px; /* More padding for tablets */
+    }
+
+    .left {
+        max-width: 50%; /* Limit width for better readability */
+        text-align: left; /* Left-align text for tablets */
+    }
+
+    .left h1 {
+        font-size: 28px; /* Larger font size for tablets */
+    }
+
+    .left p {
+        font-size: 16px; /* Larger font size for tablets */
+    }
+
+    .left button {
+        width: 50%; /* Adjust button width */
+    }
+
+    .right {
+        width: 50%; /* Limit width for tablets */
+        margin-top: 0px; /* Remove margin for side-by-side layout */
+    }
+
+    .right img {
+        max-width: 300px; /* Larger image for tablets */
+        max-height: 300px;
+    }
+}
+
+/* PC Styles */
+@media (min-width: 1024px) {
+    .hero {
+        padding: 80px 50px; /* More padding for PCs */
+        width: 100%;
+        background-position: right bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .left{
+        justify-content: center;
+        align-items: start;
+    }
+
+    .left h1 {
+        font-size: 48px; /* Larger font size for PCs */
+        line-height: 4rem;
+        padding: 10px;
+        margin: 40px;
+    }
+
+    .left p {
+        font-size: 18px; /* Larger font size for PCs */
+        padding-left: 30px;
+        margin: 10px;
+    }
+
+    .left button {
+        width: 15%; /* Adjust button width */
+        margin: 20px;
+        padding: 5px;
+    }
+
+    .right img {
+        max-width: 600px; /* Larger image for PCs */
+        max-height: 600px;
+    }
 }

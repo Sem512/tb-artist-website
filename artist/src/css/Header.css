@@ -67,3 +67,35 @@ ul li a.active-link {
     font-weight: bold;
     color: blue; /* Adjust the active link color */
 }
+
+@media (min-width: 768px) {
+    /* Hide Hamburger Icon on Larger Screens */
+    .hamburger {
+        display: none;
+    }
+
+    /* Convert Menu to Horizontal Layout */
+    ul {
+        position: static; /* Reset positioning */
+        display: flex; /* Display menu items horizontally */
+        flex-direction: row;
+        justify-content: flex-end; /* Align items to the right */
+        background-color: transparent; /* Remove background color */
+        max-height: none; /* Reset max-height */
+        width: auto; /* Reset width */
+        overflow: visible; /* Reset overflow */
+        padding-right: 100px;
+    }
+
+    ul li {
+        padding: 0 15px; /* Add horizontal padding between items */
+    }
+
+    ul li a {
+        color: black; /* Reset link color */
+    }
+
+    ul li a.active-link {
+        color: blue; /* Active link color */
+    }
+}
