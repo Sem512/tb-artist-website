@@ -2,7 +2,6 @@
     display: flex;
     margin:0px 10px;
     padding: 50px 0px;
-    overflow: hidden;
     background-image: url('https://tewoldebrehan.art/wp-content/uploads/2022/11/home_artist2_slider_bg.jpg');
     background-size: cover; background-position: center bottom; width: 100%; height: 100%; opacity: 1; top: 0px; left: 0px; visibility: inherit
 }
@@ -53,7 +52,6 @@
 }
 
 .right{
-margin-right: 15px;
 display: flex;
 width:50%;
 }

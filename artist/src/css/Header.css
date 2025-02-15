@@ -20,7 +20,7 @@ header img {
     height: 21px;
     cursor: pointer;
     z-index: 1000; /* Ensure it's above other elements */
-    padding-right: 15px;
+    padding-right: 25px;
 }
 
 .hamburger .line {
