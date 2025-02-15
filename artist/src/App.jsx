@@ -18,6 +18,7 @@ function App() {
         <Hero/>
         <Bio/>
         <Works/>
+        <Footer/>
       </div>
     </Router>
   );

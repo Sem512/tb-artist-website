@@ -4,15 +4,11 @@ export default function Footer(){
     return(
         <footer>
             <div className='logo'>
-                <p>TB</p>
+                <img src="https://tewoldebrehan.art/wp-content/uploads/2017/11/retina_artist2.png" alt="" />
             </div>
 
-            <ul>
-                <li>&copy;2025 Tewolde Berhan</li>
-                <li>Brinzart.com</li>
-                <li className='link' onClick={() => navigate("/contact")}>Contact</li>
-                <li>Site by SSM</li>
-            </ul>
+            <p>Nullam viverra consectetuer quisque cursus et, porttitor risus. </p>
+            <p>   +61 (0) 3 8376 6284 noreply@envato.com</p>
         </footer>
     )
 }
