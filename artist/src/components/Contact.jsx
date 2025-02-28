@@ -25,10 +25,10 @@ function Contact() {
   };
 
   return (
-    <div className="contact-page">
-      <div className="contact-form">
+    <div className="contact-page" >
+      <div className="contact-form" id="contact">
         <form onSubmit={handleSubmit}>
-          <div className="form-group">
+          <div className="form-group" id="contact">
             <label htmlFor="name">Name</label>
             <input
               type="text"

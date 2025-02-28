@@ -2,7 +2,7 @@ import '../css/Footer.css'
 
 export default function Footer(){
     return(
-        <footer>
+        <footer id="contact">
             <div className='logo'>
                 <img src="https://tewoldebrehan.art/wp-content/uploads/2017/11/retina_artist2.png" alt="" />
             </div>

@@ -2,7 +2,7 @@ import '../css/Hero.css'
 
 export default function Hero(){
 return(
-    <div className='hero'>
+    <div className='hero' id="hero">
         <div className='left'>
         <h1>Ethiopian Magic <br />Scrolls and Talisman</h1>
         <p>Discover the world of ancient ethiopian arts and own a piece of the magic.</p>

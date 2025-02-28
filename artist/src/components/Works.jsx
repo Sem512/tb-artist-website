@@ -2,7 +2,7 @@ import '../css/Works.css'
 
 export default function Works(){
     return(
-        <div className='Works'>
+        <div className='Works' id="works">
             <div className='header'>
                 <h1>This</h1>
                 <h1>is my work</h1>

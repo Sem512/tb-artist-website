@@ -45,7 +45,7 @@
     width: 50%;
     font-weight: 700;
     color: #3d3d3df0;
-    background-color: #f7f7f7cf;
+    background-color: #e3e3e3c1;
     border-radius: 15px;
     border: none;
     padding:5px;
@@ -81,6 +81,7 @@ width:50%;
 
     .left p {
         font-size: 16px; /* Larger font size for tablets */
+        line-height: 20px;
     }
 
     .left button {
